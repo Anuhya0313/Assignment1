@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void main()
+{
+    int a,b,c; 
+    printf("enter three numbers\n");
+    printf("enter first number");
+    scanf("%d",&a);
+    printf("enter second number");
+    scanf("%d",&b);
+    printf("enter thread number");
+    scanf("%d",&c);
+    if(a>b&&a>c)
+    {
+        printf("%d is largest then %d and %d ",a,b,c);
+    }
+    else if(b>a&&b>c)
+    {
+        printf("%d is largest then %d and %d ",b,c,a);
+    }
+    else
+    {
+        printf("%d is grater  then %d and %d ",c,b,a);
+    }
+}
